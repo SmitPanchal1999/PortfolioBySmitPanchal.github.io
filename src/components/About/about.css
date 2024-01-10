@@ -1,0 +1,96 @@
+#about{
+    width: 100vw;
+    max-width: 65rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+.desc{
+    font-size: medium;
+    font-weight: 300;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+.skills{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skill{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+.skill-image{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+.skill-image2{
+    object-fit: cover;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 1rem;
+}
+.skill-text>p{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+@media screen and (max-width: 720px) {
+    .skill-text>p{
+        font-size: 2vw;
+    }
+    .skill-text>h2{
+        font-size:3vw;
+    }
+    .desc{
+        font-size: 2vw;
+    }
+    .skill-image{
+        height: 2rem;
+        width:2rem;
+    }
+    .skill-image2{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skill-text>p{
+        font-size: 3vw;
+    }
+    .skill-image{
+        height: 2.25rem;
+        width: 2.25rem;
+
+    }
+    .desc{
+        font-size: 3vw;
+    }
+    .skill-image{
+        height: 2rem;
+        width:2rem;
+    }
+    .skill-image2{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
