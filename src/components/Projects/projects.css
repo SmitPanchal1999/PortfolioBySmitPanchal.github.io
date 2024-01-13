@@ -34,14 +34,13 @@
     height: 19rem;
     width: 20rem;
     margin: 0.5rem;
-    background-color: #1a1a1a;
+    background-color: rgb(50, 50, 50);
     border-radius: 2rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0.5rem 0.5rem;
-    box-shadow: 1px 1px 3px 1px yellow;
 }
 .project>p{
     margin-top: 0.25rem;
