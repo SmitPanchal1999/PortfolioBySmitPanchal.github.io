@@ -14,9 +14,11 @@ const Navbar = () => {
 				document.getElementById('home').scrollIntoView({behavior: 'smooth'}); 
 			}} />
 			<div className='menu'>
-				<Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='menu-list-item'>Home</Link>
+				<Link activeClass='active' to='home' spy={true} smooth={true} offset={-150} duration={500} className='menu-list-item'>Home</Link>
 				<Link activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={500} className='menu-list-item'>About</Link>
+				<Link activeClass='active' to='experience' spy={true} smooth={true} offset={-50} duration={500} className='menu-list-item'>Career</Link>
 				<Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className='menu-list-item'>Projects</Link>
+			
 			</div>
 			<button className='menu-btn' onClick={()=>{
 				document.getElementById('contact').scrollIntoView({behavior: 'smooth'}); 
@@ -38,7 +40,7 @@ const Navbar = () => {
 		
 			}} />
 			<div className='navMenu' style={{display: showMenu? 'flex':'none'}}>
-				<Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className='list-item' onClick={()=>{setShowMenu(false);
+				<Link activeClass='active' to='home' spy={true} smooth={true} offset={-150} duration={500} className='list-item' onClick={()=>{setShowMenu(false);
 				setOpenOrCloseMenu(MobMenuImg);
 				document.getElementsByClassName('mobMenu').src=OpenOrCloseMenu;
 				}}>Home</Link>
@@ -46,6 +48,10 @@ const Navbar = () => {
 				setOpenOrCloseMenu(MobMenuImg);
 				document.getElementsByClassName('mobMenu').src=OpenOrCloseMenu;
 				}}>About</Link>
+				<Link activeClass='active' to='experience' spy={true} smooth={true} offset={-50} duration={500} className='list-item' onClick={()=>{setShowMenu(false);
+				setOpenOrCloseMenu(MobMenuImg);
+				document.getElementsByClassName('mobMenu').src=OpenOrCloseMenu;
+				}}>Career</Link>
 				<Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className='list-item' onClick={()=>{setShowMenu(false);
 				setOpenOrCloseMenu(MobMenuImg);
 				document.getElementsByClassName('mobMenu').src=OpenOrCloseMenu;
