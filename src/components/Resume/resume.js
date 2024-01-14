@@ -1,6 +1,5 @@
 import React from 'react';
 import './resume.css';
-
 const Resume = () => {
 	return (
 		<section id='resume'>
@@ -8,7 +7,7 @@ const Resume = () => {
 			<span className='resume-desc'>Presented below is my resume, offering a concise yet comprehensive overview of my skills and experiences. Feel free to explore for more details about my professional background.</span>
 
 			<div className='resume-pdf'>
-				<iframe src='/Smit_Panchal_Resume.pdf' title='pdf' allowfullscreen></iframe>
+				<iframe src={require('./resume.pdf')} title='PDF viewer' allowfullscreen></iframe>
 			</div>
 		</section>
 	);
