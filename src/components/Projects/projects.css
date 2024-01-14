@@ -13,12 +13,14 @@
     margin: 1rem 0;
     font-size: 3rem;
     margin-bottom: 1.5rem;
+    
 }
 .projects-desc{
     font-weight: 300;
     font-size: 1rem;
     margin-bottom: 1.5rem;
     padding: 0 2rem;
+    max-width: 60rem;
 }
 .projects{
     display: flex;
@@ -71,5 +73,29 @@ a{
     }
     .projects-title{
         font-size: 2rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    .project{
+        height: 10rem;
+        width: 11rem;
+        font-size: small;
+    }
+    .project:hover{
+        height: 16rem;
+        width: 17rem;
+    }
+    .projects-desc{
+        font-size: small;
+    }
+    .projects-title{
+        font-size: 2rem;
+    }
+    .project>h2{
+        font-size: 1rem;
+    }
+    .project>p{
+        font-size: small;
+        font-weight: 100;
     }
 }

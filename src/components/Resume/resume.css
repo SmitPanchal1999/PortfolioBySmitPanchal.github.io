@@ -1,0 +1,53 @@
+#resume{
+    width: 100vw;
+    max-width: 70rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.resume-title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.resume-pdf{
+    position: relative;
+    width: 100vw;
+    max-width: 65rem;
+    min-height: 80vh;
+    
+}
+.resume-pdf iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.resume-desc{
+    font-size: medium;
+    font-weight: 300;
+    max-width: 60rem;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width:720px) {
+    .resume-title{
+        font-size: 2rem;
+    }
+    #resume{
+        min-height: 40vh;
+    }
+    .resume-pdf{
+        max-width: 20rem;
+        min-height: 60vh;
+    }
+    .resume-desc{
+        font-size: 3vw;
+    }
+}

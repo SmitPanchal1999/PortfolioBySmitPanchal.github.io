@@ -44,6 +44,7 @@
     border-radius: 2rem;
     padding: 0.75rem 3.5rem;
     margin: 2rem;
+    color: black;
 }
 .submit-btn:hover{
     cursor: pointer;
@@ -74,5 +75,4 @@
     .contact-desc,.contact-form>input,.contact-form> textarea{
         font-size: small;
     }
-    
 }
