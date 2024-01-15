@@ -45,6 +45,7 @@
     padding: 0.75rem 3.5rem;
     margin: 2rem;
     color: black;
+    font-weight: 1000;
 }
 .submit-btn:hover{
     cursor: pointer;
