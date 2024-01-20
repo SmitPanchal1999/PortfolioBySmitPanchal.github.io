@@ -5,9 +5,9 @@ import MediaQuery from 'react-responsive';
 const experiences = [
 	{
 		title: 'May 2023 - Aug 2023',
-		cardTitle: 'Automation Co-Op',
+		cardTitle: 'Software Developer Co-Op',
 		cardSubtitle: 'Nokia',
-		cardDetailedText: 'Kanata, ON, Canada',
+		cardDetailedText: 'Ottawa, ON, Canada',
 	},
 	{
 		title: 'Sep 2022 - Dec 2023',
