@@ -17,7 +17,7 @@ const experiences = [
 	},
 	{
 		title: 'Jul 2021 - Jul 2022',
-		cardTitle: 'Jr. Software Engineer',
+		cardTitle: 'Software Engineer',
 		cardSubtitle: 'Rapidops Solutions Pvt. Ltd.',
 		cardDetailedText: 'Ahmedabad, GJ, India',
 	},
