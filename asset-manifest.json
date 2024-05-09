@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioBySmitPanchal.github.io/static/css/main.14d4d981.css",
-    "main.js": "/PortfolioBySmitPanchal.github.io/static/js/main.a5bd0675.js",
+    "main.css": "/PortfolioBySmitPanchal.github.io/static/css/main.5edcdebb.css",
+    "main.js": "/PortfolioBySmitPanchal.github.io/static/js/main.d7a244b5.js",
     "static/media/profile_photo.png": "/PortfolioBySmitPanchal.github.io/static/media/profile_photo.c20d808e26b400a14dc6.png",
     "static/media/resume.pdf": "/PortfolioBySmitPanchal.github.io/static/media/resume.b75f0d304742232d7dd8.pdf",
     "static/media/portfolio-logo-black-and-white.png": "/PortfolioBySmitPanchal.github.io/static/media/portfolio-logo-black-and-white.52e2a39dbeec494299a5.png",
@@ -9,11 +9,11 @@
     "static/media/web_development.png": "/PortfolioBySmitPanchal.github.io/static/media/web_development.faf47c30539965ca7316.png",
     "static/media/hiring.png": "/PortfolioBySmitPanchal.github.io/static/media/hiring.e22c5e3d9baae6b0e3d8.png",
     "index.html": "/PortfolioBySmitPanchal.github.io/index.html",
-    "main.14d4d981.css.map": "/PortfolioBySmitPanchal.github.io/static/css/main.14d4d981.css.map",
-    "main.a5bd0675.js.map": "/PortfolioBySmitPanchal.github.io/static/js/main.a5bd0675.js.map"
+    "main.5edcdebb.css.map": "/PortfolioBySmitPanchal.github.io/static/css/main.5edcdebb.css.map",
+    "main.d7a244b5.js.map": "/PortfolioBySmitPanchal.github.io/static/js/main.d7a244b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.14d4d981.css",
-    "static/js/main.a5bd0675.js"
+    "static/css/main.5edcdebb.css",
+    "static/js/main.d7a244b5.js"
   ]
 }
