@@ -44,9 +44,9 @@
     align-items: center;
     padding: 0.5rem 0.5rem;
 }
-.project>p{
+.project-desc{
     margin-top: 0.25rem;
-    font-size: small;
+    font-size: medium;
 }
 .project:hover{
     cursor: pointer;
@@ -54,6 +54,14 @@
     color: black;
     height: 20rem;
     width: 21rem;
+}
+.tech-stack{
+    font-size: medium;
+    margin-top: 10%;
+    max-width: 60rem;
+}
+.tech-stack-title{
+    font-weight: bold;
 }
 a{
     color: white;
@@ -77,13 +85,13 @@ a{
 }
 @media screen and (max-width: 720px) {
     .project{
-        height: 10rem;
-        width: 11rem;
+        height: 12rem;
+        width: 13rem;
         font-size: small;
     }
     .project:hover{
-        height: 16rem;
-        width: 17rem;
+        height: 13rem;
+        width: 14rem;
     }
     .projects-desc{
         font-size: small;
