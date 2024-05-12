@@ -28,14 +28,14 @@ const About = () => {
 					</div>
 				</div>
 				<div className='skill'>
-					<img src={MLIcon} alt='Machine Learning' className='skill-image2' />
+					<img src={MLIcon} alt='Machine Learning' className='skill-image' />
 					<div className='skill-text'>
 						<h2>Machine Learning Model Development</h2>
 						<p>Harnessing the power of data to create intelligent algorithms, providing insights and predictive capabilities that drive informed decision-making.</p>
 					</div>
 				</div>
 				<div className='skill'>
-					<img src={NetworkAutomationIcon} alt='Network Automation' className='skill-image2' />
+					<img src={NetworkAutomationIcon} alt='Network Automation' className='skill-image' />
 					<div className='skill-text'>
 						<h2>Network Automation Using Ansible</h2>
 						<p>Automating and streamlining network infrastructure tasks with Ansible. Implementing script-based configuration management and orchestration for efficient and scalable network operations.</p>

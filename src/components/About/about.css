@@ -40,12 +40,6 @@
     width: 3rem;
     margin-right: 1rem;
 }
-.skill-image2{
-    object-fit: cover;
-    height: 3.5rem;
-    width: 3.5rem;
-    margin-right: 1rem;
-}
 .skill-text>p{
     font-size: 0.9rem;
     font-weight: 200;
@@ -63,10 +57,6 @@
     .skill-image{
         height: 2rem;
         width:2rem;
-    }
-    .skill-image2{
-        height: 2.5rem;
-        width: 2.5rem;
     }
     .title{
         font-size: 2rem;
@@ -88,9 +78,5 @@
     .skill-image{
         height: 2rem;
         width:2rem;
-    }
-    .skill-image2{
-        height: 2.5rem;
-        width: 2.5rem;
     }
 }
