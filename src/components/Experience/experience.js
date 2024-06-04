@@ -16,13 +16,13 @@ const experiences = [
 		cardDetailedText: 'Waterloo, ON, Canada',
 	},
 	{
-		title: 'Jul 2021 - Jul 2022',
+		title: 'Jul 2021 - Aug 2022',
 		cardTitle: 'Software Engineer',
 		cardSubtitle: 'Rapidops Solutions Pvt. Ltd.',
 		cardDetailedText: 'Ahmedabad, GJ, India',
 	},
 	{
-		title: 'Jan 2021 - Jun 2021',
+		title: 'Dec 2020 - Jun 2021',
 		cardTitle: 'Software Engineer Intern',
 		cardSubtitle: 'Rapidops Solutions Pvt. Ltd.',
 		cardDetailedText: 'Ahmedabad, GJ, India',
