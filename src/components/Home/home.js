@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeImg from '../../assets/profile_photo.png';
+import HomeImg from '../../assets/new_profile_photo_1.png';
 import { Link } from 'react-scroll';
 import HireImg from '../../assets/hiring.png';
 import './home.css';
