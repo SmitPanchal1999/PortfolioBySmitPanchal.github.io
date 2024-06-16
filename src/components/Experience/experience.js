@@ -5,12 +5,12 @@ import MediaQuery from 'react-responsive';
 const experiences = [
 	{
 		title: 'May 2023 - Aug 2023',
-		cardTitle: 'Software Developer Co-Op',
+		cardTitle: 'SDN & Network Automation Engineer Co-Op',
 		cardSubtitle: 'Nokia',
 		cardDetailedText: 'Ottawa, ON, Canada',
 	},
 	{
-		title: 'Sep 2022 - Dec 2023',
+		title: 'Sep 2022 - June 2024',
 		cardTitle: 'Master of Applied Computing',
 		cardSubtitle: 'Wilfrid Laurier University',
 		cardDetailedText: 'Waterloo, ON, Canada',
