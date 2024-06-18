@@ -5,7 +5,7 @@ import MediaQuery from 'react-responsive';
 const experiences = [
 	{
 		title: 'May 2023 - Aug 2023',
-		cardTitle: 'SDN & Network Automation Engineer Co-Op',
+		cardTitle: 'Software Developer Co-Op',
 		cardSubtitle: 'Nokia',
 		cardDetailedText: 'Ottawa, ON, Canada',
 	},
