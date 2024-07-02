@@ -18,13 +18,13 @@ const experiences = [
 	{
 		title: 'Jul 2021 - Aug 2022',
 		cardTitle: 'Software Engineer',
-		cardSubtitle: 'Rapidops Solutions Pvt. Ltd.',
+		cardSubtitle: 'Rapidops Inc.',
 		cardDetailedText: 'Ahmedabad, GJ, India',
 	},
 	{
 		title: 'Dec 2020 - Jun 2021',
 		cardTitle: 'Software Engineer Intern',
-		cardSubtitle: 'Rapidops Solutions Pvt. Ltd.',
+		cardSubtitle: 'Rapidops Inc.',
 		cardDetailedText: 'Ahmedabad, GJ, India',
 	},
 	{
@@ -39,7 +39,7 @@ const Experience = () => {
 		<section id='experience'>
 			<span className='experience-title'>Professional Journey</span>
 			<span className='experience-desc'>
-				Tech journey marked by impactful roles at Nokia, Rapidops Solutions, and academic excellence at Wilfrid
+				Tech journey marked by impactful roles at Nokia, Rapidops, and academic excellence at Wilfrid
 				Laurier and Dharmsinh Desai University. Committed to growth, innovation, and collaborative
 				problem-solving in dynamic environments.
 			</span>
