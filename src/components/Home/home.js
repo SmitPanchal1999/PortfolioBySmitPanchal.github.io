@@ -22,7 +22,7 @@ const Home = () => {
 						document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
 					}}>
 						<img src={HireImg} alt='Hire me' className='hire-img' />
-						Hire me
+						Let's Connect
 					</button>
 				</Link>
 			</div>
