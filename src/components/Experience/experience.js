@@ -5,7 +5,7 @@ import MediaQuery from 'react-responsive';
 const experiences = [
 	{
 		title: 'May 2023 - Aug 2023',
-		cardTitle: 'Software Developer Co-Op',
+		cardTitle: 'Software Automation Developer Co-Op',
 		cardSubtitle: 'Nokia',
 		cardDetailedText: 'Ottawa, ON, Canada',
 	},
@@ -16,16 +16,16 @@ const experiences = [
 		cardDetailedText: 'Waterloo, ON, Canada',
 	},
 	{
-		title: 'Jul 2021 - Aug 2022',
+		title: 'Jul 2020 - Jul 2022',
 		cardTitle: 'Software Engineer',
 		cardSubtitle: 'Rapidops Inc.',
 		cardDetailedText: 'Ahmedabad, GJ, India',
 	},
 	{
-		title: 'Dec 2020 - Jun 2021',
-		cardTitle: 'Software Engineer Intern',
-		cardSubtitle: 'Rapidops Inc.',
-		cardDetailedText: 'Ahmedabad, GJ, India',
+		title: 'Jan 2020 - Jun 2020',
+		cardTitle: 'Software Developer Intern',
+		cardSubtitle: 'Nifty Solutions',
+		cardDetailedText: 'Vadodara, GJ, India',
 	},
 	{
 		title: 'Sep 2017 - Apr 2021',
