@@ -10,7 +10,7 @@ const experiences = [
 		cardDetailedText: 'Ottawa, ON, Canada',
 	},
 	{
-		title: 'Sep 2022 - June 2024',
+		title: 'Sep 2022 - Dec 2023',
 		cardTitle: 'Master of Applied Computing',
 		cardSubtitle: 'Wilfrid Laurier University',
 		cardDetailedText: 'Waterloo, ON, Canada',
