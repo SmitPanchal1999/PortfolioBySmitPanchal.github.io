@@ -16,7 +16,7 @@ const experiences = [
 		cardDetailedText: 'Waterloo, ON, Canada',
 	},
 	{
-		title: 'Jul 2020 - Jul 2022',
+		title: 'Dec 2020 - Aug 2022',
 		cardTitle: 'Software Engineer',
 		cardSubtitle: 'Rapidops Inc.',
 		cardDetailedText: 'Ahmedabad, GJ, India',
