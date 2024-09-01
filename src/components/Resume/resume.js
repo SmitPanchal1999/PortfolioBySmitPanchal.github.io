@@ -7,11 +7,11 @@ const Resume = () => {
 			<span className='resume-desc'>
 			Discover my concise and comprehensive resume for insights into my skills, experiences and achievements. Download the PDF by clicking the below button for convenient access.
 			</span>
-			<a href={require('./resume.pdf')} className='download-btn' download='Smit-Panchal-Resume.pdf'>Download Resume</a>
+			{/* <a href={require('./resume.pdf')} className='download-btn' download='Smit-Panchal-Resume.pdf'>Download Resume</a>
 			<div className='resume-pdf'>
 				<iframe src={require('./resume.pdf')} title='PDF viewer' allowfullscreen></iframe>
 				 
-			</div>
+			</div> */}
 		</section>
 	);
 };
