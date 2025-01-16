@@ -45,11 +45,20 @@ const Projects = () => {
 
 					</div>
 				</a>
+
 				<a href='https://github.com/SmitPanchal1999/User-Management-System' target='_blank' rel='noreferrer'>
 					<div className='project'>
 						<h2>User Management System</h2>
 						<p className='project-desc'>Efficient user and role management</p>
 						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> Angular, Node.js, ElasticSearch, Grafana</p>
+
+					</div>
+				</a>
+				<a href='https://github.com/SmitPanchal1999/Payment-Management-System' target='_blank' rel='noreferrer'>
+					<div className='project'>
+						<h2>Payment Management System</h2>
+						<p className='project-desc'>Manage user payments with ease and efficiency</p>
+						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> Python, FastAPI, MongoDB, Angular, Typescript, Render</p>
 
 					</div>
 				</a>
