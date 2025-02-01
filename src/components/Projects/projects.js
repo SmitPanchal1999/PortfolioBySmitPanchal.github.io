@@ -10,7 +10,7 @@ const Projects = () => {
 					<div className='project'>
 						<h2>CloudDriven</h2>
 						<p className='project-desc'>Personal Digital Storage & Secure Sharing</p>
-						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> AWS, Angular, Node.js, Express.js, MongoDB, Heroku</p>
+						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> AWS, Angular, JavaScript, Node.js, Express.js, MongoDB, Heroku</p>
 					</div>
 				</a>
 				<a href='https://github.com/SmitPanchal1999/HelpingHands' target='_blank' rel='noreferrer'>
@@ -21,11 +21,19 @@ const Projects = () => {
 
 					</div>
 				</a>
+				<a href='https://github.com/SmitPanchal1999/PortfolioBySmitPanchal.github.io' target='_blank' rel='noreferrer'>
+					<div className='project'>
+						<h2>Portfolio</h2>
+						<p className='project-desc'>Showcasing my Skills, Projects, and Professional Journey</p>
+						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> React, JavaScript/TypeScript, GitHub Pages</p>
+
+					</div>
+				</a>
 				<a href='https://github.com/SmitPanchal1999/HealthCard' target='_blank' rel='noreferrer'>
 					<div className='project'>
 						<h2>HealthCard</h2>
 						<p className='project-desc'>Manage Health Data Online</p>
-						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> Angular, Node.js, Express.js, MongoDB</p>
+						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> Angular, JavaScript, Node.js, Express.js, MongoDB</p>
 
 					</div>
 				</a>
@@ -50,7 +58,7 @@ const Projects = () => {
 					<div className='project'>
 						<h2>User Management System</h2>
 						<p className='project-desc'>Efficient user and role management</p>
-						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> Angular, Node.js, ElasticSearch, Grafana</p>
+						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> Angular, JavaScript, Node.js, ElasticSearch, Grafana</p>
 
 					</div>
 				</a>

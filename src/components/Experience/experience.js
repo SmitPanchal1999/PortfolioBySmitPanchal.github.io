@@ -10,7 +10,7 @@ const experiences = [
 		cardDetailedText: 'Ottawa, ON, Canada',
 	},
 	{
-		title: 'Sep 2022 - Jun 2023',
+		title: 'Sep 2022 - Jun 2024',
 		cardTitle: 'Master of Applied Computing',
 		cardSubtitle: 'Wilfrid Laurier University',
 		cardDetailedText: 'Waterloo, ON, Canada',
@@ -23,7 +23,7 @@ const experiences = [
 	},
 	{
 		title: 'Jan 2020 - Jun 2020',
-		cardTitle: 'Software Developer Intern',
+		cardTitle: 'Software Engineer Intern',
 		cardSubtitle: 'Nifty Solutions',
 		cardDetailedText: 'Vadodara, GJ, India',
 	},
