@@ -4,6 +4,12 @@ import { Chrono } from 'react-chrono';
 import MediaQuery from 'react-responsive';
 const experiences = [
 	{
+		title: 'May 2024 - Present',
+		cardTitle: 'Software Engineer - AI Training Specialist',
+		cardSubtitle: 'Outlier AI',
+		cardDetailedText: 'Toronto, ON, Canada',
+	},
+	{
 		title: 'May 2023 - Aug 2023',
 		cardTitle: 'Software Automation Developer Co-Op',
 		cardSubtitle: 'Nokia',
@@ -39,7 +45,7 @@ const Experience = () => {
 		<section id='experience'>
 			<span className='experience-title'>Professional Journey</span>
 			<span className='experience-desc'>
-				Tech journey marked by impactful roles at Nokia, Rapidops, and academic excellence at Wilfrid
+				Tech journey marked by impactful roles at Outlier AI, Nokia, Rapidops, and academic excellence at Wilfrid
 				Laurier and Dharmsinh Desai University. Committed to growth, innovation, and collaborative
 				problem-solving in dynamic environments.
 			</span>

@@ -70,6 +70,14 @@ const Projects = () => {
 
 					</div>
 				</a>
+				<a href='https://github.com/SmitPanchal1999/Landing-Page-Registration' target='_blank' rel='noreferrer'>
+					<div className='project'>
+						<h2>Landing Page Registration</h2>
+						<p className='project-desc'>Custom WordPress theme with dynamic UI and forms</p>
+						<p className='tech-stack'><span className='tech-stack-title'>TECH STACK -</span> Cursor, Wordpress, WPForms, ACF</p>
+
+					</div>
+				</a>
 			</div>
 		</section>
 	);
