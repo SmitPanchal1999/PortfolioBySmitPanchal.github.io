@@ -1,34 +1,259 @@
-#experience{
-    width: 100vw;
-    max-width: 65rem;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+#experience {
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 75rem;
     margin: 0 auto;
+    padding: 2rem;
 }
-.experience-title{
-    font-size: 3rem;
-    font-weight: 600;
-    padding-top: 3rem;
-    margin-bottom: 1.5rem;
 
+.experience-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
-.experience-desc{
-    font-size: medium;
-    font-weight: 300;
+
+.experience-desc {
+    text-align: center;
     max-width: 60rem;
-    padding: 0 2rem;
-    margin-bottom: 1rem;
+    margin: 0 auto 3rem;
+    display: block;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 300;
 }
-@media screen and (max-width: 720px) {
-  
-    .experience-desc{
-        font-size: 3vw;
+
+.timeline-container {
+    width: 100%;
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* Timeline card styles */
+.timeline-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+}
+
+.timeline-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(255, 208, 18, 0.2);
+    background: rgba(255, 208, 18, 0.1);
+    border-color: #ffd012;
+}
+
+.timeline-card h3 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timeline-card:hover h3 {
+    transform: translateX(5px);
+    color: #ffd012;
+}
+
+.timeline-card .company {
+    color: var(--secondary-color);
+    font-weight: 500;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timeline-card:hover .company {
+    color: #ffd012;
+}
+
+.timeline-card .duration {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timeline-card:hover .duration {
+    transform: translateX(5px);
+}
+
+.timeline-card .description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+
+.timeline-card:hover .description {
+    color: var(--text-primary);
+}
+
+/* Add a subtle line effect */
+.timeline-card::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    left: -20px;
+    top: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timeline-card:hover::before {
+    background: var(--secondary-color);
+    box-shadow: 0 0 15px rgba(var(--secondary-color-rgb), 0.3);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .timeline-container {
+        max-width: 60rem;
     }
-   
-    .experience-title{
+}
+
+@media screen and (max-width: 840px) {
+    #experience {
+        padding: 1rem;
+    }
+
+    .experience-title {
         font-size: 2rem;
     }
+
+    .experience-desc {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experience-title {
+        font-size: 1.75rem;
+    }
+
+    .experience-desc {
+        font-size: 0.9rem;
+    }
+}
+
+.experience-section {
+  position: relative;
+  padding-top: 150px;
+}
+
+.experience-card {
+  opacity: 0;
+  padding: 1.5rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+  position: relative;
+  animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover::before {
+  transform: translateY(-50%) scale(1.2);
+  box-shadow: 0 0 15px var(--primary-color);
+}
+
+.experience-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.experience-role {
+  font-size: 1.4em;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: slideUp 0.6s ease-out 0.2s forwards;
+}
+
+.experience-company {
+  font-size: 1.2em;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  opacity: 0;
+  animation: slideUp 0.6s ease-out 0.4s forwards;
+}
+
+.experience-duration {
+  font-size: 0.9em;
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+  opacity: 0;
+  animation: slideUp 0.6s ease-out 0.6s forwards;
+}
+
+.experience-description {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out 0.8s forwards;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.tech-tag {
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* AOS animation timings */
+[data-aos] {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 800ms;
+}
+
+[data-aos="fade-up"] {
+    transform: translateY(30px);
+}
+
+/* Standardize animation keyframes */
+@keyframes fadeIn {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.experience-card {
+    animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
