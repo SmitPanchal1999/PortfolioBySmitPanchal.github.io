@@ -5,7 +5,7 @@ import MediaQuery from 'react-responsive';
 
 const experiences = [
 	{
-		title: 'May 2024 - Present',
+		title: 'May 2024 - Jan 2025',
 		cardTitle: 'Software Engineer - AI Training Specialist',
 		cardSubtitle: 'Outlier AI',
 		cardDetailedText: 'Toronto, ON, Canada',
@@ -46,7 +46,7 @@ const Experience = () => {
 	return (
 		<section id='experience' className='experience-section'>
 			<h2 className='experience-title' data-aos="fade-up">Experience</h2>
-			<span className='experience-desc' data-aos="fade-up" data-aos-delay="100">
+			<span className='experience-desc' data-aos="fade-up" data-aos-delay="200">
 				Tech journey marked by impactful roles at Outlier AI, Nokia, Rapidops, and academic excellence at Wilfrid
 				Laurier and Dharmsinh Desai University. Committed to growth, innovation, and collaborative
 				problem-solving in dynamic environments.
